@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+
+body{
+	margin:0;
+	font-family: "Poppins", sans-serif;
+	
+	background:transparent;
+}
+body::before {
+  content: "";
+  position: fixed;
+  background: #040404  top right no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+
+section.section-show {
+  top: 100px;
+  bottom: auto;
+  opacity: 1;
+  padding-bottom: 45px;
+}

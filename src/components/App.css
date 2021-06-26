@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+body{
+  position:relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.fas{
+  color:white;
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+.mobnav{
+display:none;
+}
+
+.onclicknav{
+display:block;
+position:absolute;
+z-index:1;
+height:80vh;
+width:90%;
+top:60px;
+background-color:rgba(0,0,0,0.8);
+padding-top:50px;
+margin:0 20px 40px 20px;
+border:2px solid rgba(255, 255, 255, 0.08);
+border-radius: 5px;
+
+}
+.onclicknav nav a{
+  display:block;
+  padding-left: 10px;
+  background:none;
+  padding-bottom:20px;
+}
+
+
+.fas  {
+  background-color:black;
+  font-size:30px;
+}
+
+.fas:hover{
+  background: black;
+
+}
+
+.onclicknav a::after{
+  content:'';
+  display:none;
+}
+
+.onclicknav a{
+  color:white;
+}
+
+.onclicknav a:hover{
+  color:#18d26e;
+}

@@ -1,0 +1,194 @@
+#consultation{
+	height:auto;
+	background-color:grey;
+	background: transparent;
+	color:rgba(255, 255, 255, 0.8);
+	
+	}
+
+
+#consultation .link,h1{
+	display:inline-block;
+	margin:0;
+}
+#consultation h1{
+	color:#fff;
+	display:inline-block;
+}
+
+
+#consultation nav{
+	display:inline-block;
+	position:absolute;
+	right:0;
+	top:30px;
+}
+
+#consultation .fields input{
+	display:block;
+	color:white;
+}
+#consultation .padding input{
+	
+	color:white;
+}
+
+
+.container{
+	padding:30px;
+	margin:20px 70px 0 70px;
+	position: relative;
+	background:rgba(0,0,0,0.4);
+	;
+}
+
+.container p{
+	margin-bottom:20px;
+	position:relative
+}
+.container p::after{
+
+	content: "";
+	position:absolute;
+	bottom:10px;
+	width:180px;
+	height:2px;
+	background: #18d26e;
+	margin-left:6px;
+	z-index:1;
+
+}
+.fields input{
+	padding:18px 15px 18px 15px;
+	background:rgba(255, 255, 255, 0.08);
+	border:0px solid rgba(255, 255, 255, 0.08);
+	width:94%;
+	margin-left:30px;
+	position:relative;
+	margin-bottom: 10px;
+
+}
+input:focus{
+	outline-style: none;
+
+}
+
+
+.container2{
+	
+	
+	background: rgba(255, 255, 255, 0.08);
+
+}
+.padding{
+	padding-top:20px;
+	display:flex;
+	flex-wrap: nowrap;
+	margin:0;
+	
+	width:94%;
+	margin-left:30px;
+}
+.padding input{
+	margin-right:2px;
+}
+
+
+
+#consultation button{
+	padding:8px 40px 8px 40px;
+	font-size:17px;
+	margin-bottom:10px;
+	background: #18d26e;
+	border: 1px solid #18d26e;
+	color:white; 
+	border-radius:4px;
+	
+}
+#consultation button:hover{
+	opacity: 0.8;
+}
+
+.fields{
+	text-align: center;
+}
+
+#consultation nav{
+	
+	margin-top:60px;
+}
+
+#consultation .navi{
+    
+    top:0;
+    width:100%;
+	background-color: black;
+	padding: 10px;
+	z-index:1;
+	position:fixed;
+
+}
+#consultation nav,h1{
+
+	margin:0;
+	
+	
+}
+
+h1{
+	font-weight: 700;
+	font-size: 45px;
+}
+.onclicknav nav i{
+  background-color:none;
+}
+
+@media (max-width: 1020px){
+	#consultation h1{
+		font-size:26px;
+	}
+	#consultation .container{
+		margin:95px 0 10px 0;
+	}
+#consultation .fields input{
+padding:18px 15px 18px 15px;
+	background:rgba(255, 255, 255, 0.08);
+	border:0px solid rgba(255, 255, 255, 0.08);
+	width:100%;
+	margin-left:0px;
+	
+	margin-bottom: 10px;
+}
+#consultation .padding{
+	padding:10px 0 0 0;
+	margin:0 0 0 10px;
+	width:94%;
+}
+#consultation .fields{
+	padding:0 13px 0 10px;
+	margin-bottom:0px;
+
+}
+consultation .padding input{
+	width:50%;
+}
+
+#consultation p::after{
+
+
+	content: "";
+	position:absolute;
+	bottom:10px;
+	width:100px;
+	height:2px;
+	background: #18d26e;
+	margin-left:6px;
+	z-index:1;
+
+}
+#consultation .container h1{
+	font-size:36px;
+	margin:0 0 0 0;
+	}
+
+}

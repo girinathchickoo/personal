@@ -1,0 +1,160 @@
+#search{
+	height:100vh;
+	}
+	
+
+
+#search .link,h1{
+	display:inline-block;
+}
+#search h1{
+	color:#fff;
+	display:inline-block;
+
+}
+#search{
+	color:rgba(255, 255, 255, 0.8);
+}
+
+#search nav{
+	display:inline-block;
+	position:absolute;
+	right:0;
+	top:30px;
+}
+
+#search .fields input{
+	display:block;
+	color:white;
+}
+#search .padding input{
+	color:white;
+}
+.container{
+	padding:30px;
+	margin:120px 70px 0 70px;
+	position: relative;
+	background:rgba(0,0,0,0.4);
+}
+#search .navi{
+    width:100%;
+	background-color: black;
+	padding: 10px;
+	z-index:1;
+	
+
+}
+#search .container{
+	margin-top:30px;
+}
+
+
+
+input{
+	padding:18px 15px 18px 15px;
+	background:rgba(255, 255, 255, 0.08);
+	border:0px solid rgba(255, 255, 255, 0.08);
+	width:94%;
+	
+	position:relative;
+	margin-bottom: 10px;
+	color:(255, 255, 255, 0.8);
+
+}
+.fields input{
+	margin-left:30px;
+
+}
+input:focus{
+	outline-style: none;}
+
+
+
+.container2{
+	position:relative;
+	
+	background: rgba(255, 255, 255, 0.08);
+
+}
+.padding{
+	padding-top:20px;
+
+}
+
+
+
+
+#search button{
+	padding:8px 40px 8px 40px;
+	font-size:17px;
+	margin-bottom:10px;
+	background: #18d26e;
+	border: 1px solid #18d26e;
+	color:white; 
+	border-radius:4px;
+	
+}
+#search button:hover{
+	opacity: 0.8;
+}
+
+.fields{
+	text-align: center;
+}
+
+#search nav,h1{
+
+	margin:0;
+	
+	
+}
+.onclicknav nav i{
+  background-color:none;
+}
+@media (max-width: 1020px){
+	#search h1{
+		font-size:26px;
+	}
+	#search .container{
+		margin:30px 0 10px 0;
+	}
+#search .fields input{
+padding:18px 15px 18px 15px;
+	background:rgba(255, 255, 255, 0.08);
+	border:0px solid rgba(255, 255, 255, 0.08);
+	width:100%;
+	margin-left:0px;
+	
+	margin-bottom: 10px;
+}
+#search .padding{
+	padding:10px 0 0 0;
+	margin:0 0 0 10px;
+}
+#search .fields{
+	padding:0 13px 0 10px;
+	margin-bottom:0px;
+
+}
+
+#search p::after{
+
+
+	content: "";
+	position:absolute;
+	bottom:10px;
+	width:100px;
+	height:2px;
+	background: #18d26e;
+	margin-left:6px;
+	z-index:1;
+
+}
+#search .container h1{
+	font-size:26px;
+	margin:0 0 0 0;
+	}
+	a{
+	position:static;
+}
+}
